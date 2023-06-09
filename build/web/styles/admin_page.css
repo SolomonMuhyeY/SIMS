@@ -1,0 +1,162 @@
+/* admin_page.css */
+
+/* Reset default margin and padding */
+body, h1, h2, p, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set font styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+/* Define colors */
+body {
+    background-color: #f1f1f1;
+}
+
+.header {
+    background-color: #333;
+    height: 60px;
+    /* Add your header styles here */
+}
+
+.logout-button {
+    background-color: #ff4c4c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-right: 20px;
+    float: right;
+    cursor: pointer;
+    /* Add your logout button styles here */
+}
+
+.sidebar {
+    background-color: #ddd;
+    width: 200px;
+    height: calc(100vh - 60px);
+    float: left;
+    /* Add your sidebar styles here */
+}
+
+.sidebar-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 10px;
+    cursor: pointer;
+    /* Add your sidebar item styles here */
+}
+
+.sidebar-item img {
+    margin-bottom: 10px;
+}
+
+.content {
+    padding: 20px;
+    margin-left: 200px;
+    /* Add your content styles here */
+}
+
+.welcome-text {
+    margin-bottom: 20px;
+    /* Add your welcome text styles here */
+}
+/*manage course*/
+.manage-course-container {
+    display: none;
+    padding: 10px;
+    background-color: #f1f1f1;
+}
+
+.manage-course-container.show {
+    display: block;
+}
+
+.manage-course-container .content {
+    text-align: center;
+}
+
+.manage-course-container .grid {
+    margin-bottom: 10px;
+}
+
+.manage-course-container .grid label {
+    font-family: 'Times New Roman Bold';
+    font-size: 16px;
+}
+
+.manage-course-container .btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.manage-course-container .sidebar {
+    margin-top: 10px;
+}
+
+.manage-course-container .sidebar img {
+    max-width: 100%;
+    height: auto;
+}
+
+.manage-course-container .textArea {
+    white-space: pre-line;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: #fff;
+}
+/*form-container*/
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+}
+
+.form-container h2 {
+    text-align: center;
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-container input[type="text"],
+.form-container input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-container button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}

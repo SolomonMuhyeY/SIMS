@@ -1,0 +1,73 @@
+/* manageCourse.css */
+
+/* General styles */
+.grid {
+    background-color: #FFFFFF;
+    padding: 10px;
+    spacing: 10px;
+}
+
+.textArea {
+    font-size: 14px;
+}
+
+/* Button styles */
+.button {
+    background-color: #3b63b7;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+/* Label styles */
+.label {
+    font-family: "Times New Roman Bold";
+    font-size: 16px;
+}
+
+/* TextField styles */
+.text-field {
+    height: 18px;
+    width: 121px;
+}
+
+/* ImageView styles */
+.image-view {
+    height: 185px;
+    width: 190px;
+}
+
+/* TextArea styles */
+.text-area {
+    height: 330px;
+    width: 185px;
+    font-size: 14px;
+}
+
+/* AnchorPane styles */
+.anchor-pane {
+    height: 620px;
+    width: 1000px;
+    background-color: #acc3e8;
+}
+
+/* HBox styles */
+.h-box {
+    height: 40px;
+    width: 1000px;
+    background-color: #3b63b7;
+}
+
+/* Button styles in HBox */
+.h-box .button {
+    height: 38px;
+    width: 69px;
+}
+
+/* Styling for specific elements */
+#btnBack {
+    background-image: url('image/back.png');
+}
+
+#btnSearch {
+    color: #FFFFFF;
+}
